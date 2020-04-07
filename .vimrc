@@ -38,7 +38,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ajh17/Spacegray.vim'
 
 " Status Lines
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'edkolev/promptline.vim' " Type 'PromptlineSnapshot ~/.promptline.sh airline/lightline'
@@ -57,8 +57,8 @@ set cursorline
 set t_Co=256
 set background=dark
 let base16colorspace=256  " Access colors present in 256 colorspace
-colorscheme gotham
-" colorscheme gotham256
+" colorscheme gotham
+colorscheme gotham256
 " colorscheme gruvbox
 " colorscheme dracula
 " colorscheme spacegray
@@ -176,3 +176,4 @@ imap <c-x><c-l> <plug>(fzf-complete-line)
 " Default fzf layout
 " - down / up / left / right
 let g:fzf_layout = { 'down': '~40%' }
+
