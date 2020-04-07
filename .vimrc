@@ -56,9 +56,9 @@ set cursorline
 
 set t_Co=256
 set background=dark
-let base16colorspace=256  " Access colors present in 256 colorspace
-" colorscheme gotham
-colorscheme gotham256
+" let base16colorspace=256  " Access colors present in 256 colorspace
+colorscheme gotham
+" colorscheme gotham256
 " colorscheme gruvbox
 " colorscheme dracula
 " colorscheme spacegray
