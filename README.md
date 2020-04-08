@@ -5,6 +5,7 @@ Includes my bash terminal configuration files for easy transfer to new servers/d
 ### Easy install (Step 1)
 In your home directory, download this git repository by typing:
 'git clone https://github.com/CarlsonCarlson/my_configs.git'
+
 For easy set up use the type the following commands in order, 
 'cd my_configs'
 'cp .bash_aliases .bashrc ~/'
@@ -13,6 +14,12 @@ For easy set up use the type the following commands in order,
 
 ### Vim-plugin Installation (Step 2)
 My configuration uses the vim-plug plugin manager
+
+Type:
+
+'curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    
 To install the plugins load up your .vimrc file located in your home directory and `:PlugInstall` to install plugins.
 
 ## Features
