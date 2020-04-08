@@ -53,3 +53,4 @@ For more information and advanced commands see: https://github.com/junegunn/vim-
 ### Add binaries/commands to the repo
     -sshUD
     -systemupdate
+### Make another private repo/branch just for my computer
