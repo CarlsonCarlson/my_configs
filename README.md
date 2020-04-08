@@ -15,6 +15,14 @@ For easy set up use the type the following commands in order,
 My configuration uses the vim-plug plugin manager
 To install the plugins load up your .vimrc file located in your home directory and `:PlugInstall` to install plugins.
 
+### Promptline Installation (Step 3)
+In vim type the below command to load promptline:
+
+`:PromptlineSnapshot[!] ~/.promptline.sh airline`
+
+Exit vim, then reload bash with the `bash` command.
+
+
 ## Features
 ### Vim-plug Commands 
 For more information and advanced commands see: https://github.com/junegunn/vim-plug
