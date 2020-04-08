@@ -7,10 +7,8 @@ My configuration uses the vim-plug plugin manager
 To install the plugins load up your .vimrc file located in your home directory and `:PlugInstall` to install plugins.
 
 ## Features
-### Vim-plug Commands
-
-### Commands
-
+### Vim-plug Commands 
+For more information and advanced commands see: https://github.com/junegunn/vim-plug
 | Command                             | Description                                                        |
 | ----------------------------------- | ------------------------------------------------------------------ |
 | `PlugInstall [name ...] [#threads]` | Install plugins                                                    |
@@ -20,7 +18,6 @@ To install the plugins load up your .vimrc file located in your home directory a
 | `PlugStatus`                        | Check the status of plugins                                        |
 | `PlugDiff`                          | Examine changes from the previous update and the pending changes   |
 | `PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins  |
-
 
 ## TODO:
 ### Bling out the README
