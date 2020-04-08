@@ -1,8 +1,17 @@
 # my_configs
-Includes my bash terminal configuration files for easy transfer to new servers/devices
+Includes my bash terminal configuration files for easy transfer to new servers/devices. It will override your current .bashrc, .bash_aliases,.bash_logout, and .vimrc.
 
-## Installation
-### Vim-plugin Installation
+## Installation 
+### Easy install (Step 1)
+In your home directory, download this git repository by typing:
+'git clone https://github.com/CarlsonCarlson/my_configs.git'
+For easy set up use the type the following commands in order, 
+'cd my_configs'
+'cp .bash_aliases ~/'
+'bash'
+'syncConfig'
+
+### Vim-plugin Installation (Step 2)
 My configuration uses the vim-plug plugin manager
 To install the plugins load up your .vimrc file located in your home directory and `:PlugInstall` to install plugins.
 
