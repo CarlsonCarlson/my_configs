@@ -7,7 +7,7 @@ In your home directory, download this git repository by typing:
 'git clone https://github.com/CarlsonCarlson/my_configs.git'
 For easy set up use the type the following commands in order, 
 'cd my_configs'
-'cp .bash_aliases ~/'
+'cp .bash_aliases .bashrc ~/'
 'bash'
 'syncConfig'
 
