@@ -8,4 +8,10 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias terminator='DISPLAY=:0 terminator &'
 alias sessions='tmux ls'
-alias syncConfig='cd ~/my_configs && git pull && cp .bash_aliases .bash_logout .bashrc .vimrc ~/ && cd'
+alias pullConfig='cd ~/my_configs && git pull &&
+ 	cp .bash_aliases .bash_logout .bashrc .vimrc ~/ && 
+	cp ~/my_configs/commands/* /usr/local/bin/ &&
+	cd'
+alias pushConfig='cd && cp .bash_aliases .bash_logout .bashrc .vimrc ~/my_configs && 
+	cp /usr/local/bin/* ~/my_configs/commands/ &&
+	cd'

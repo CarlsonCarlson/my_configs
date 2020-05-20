@@ -57,10 +57,10 @@ set cursorline
 set t_Co=256
 set background=dark
 " let base16colorspace=256  " Access colors present in 256 colorspace
-colorscheme gotham
+" colorscheme gotham
 " colorscheme gotham256
 " colorscheme gruvbox
-" colorscheme dracula
+colorscheme dracula
 " colorscheme spacegray
 
 let g:spacegray_underline_search = 1
@@ -74,9 +74,9 @@ let g:airline_powerline_fonts = 1
 
 " Vim-Airline Configuration
 let g:airline#extensions#tabline#enabled = 1
-" let g:airline_theme='hybrid'
-" let g:hybrid_custom_term_colors = 1
-" let g:hybrid_reduced_contrast = 1 
+let g:airline_theme='hybrid'
+let g:hybrid_custom_term_colors = 1
+let g:hybrid_reduced_contrast = 1 
 
 " Uncomment to enable lightline
 " let g:lightline = { 'colorscheme': 'gotham' }
@@ -86,6 +86,10 @@ let g:rainbow_active = 1
 
 " Enable scroll through vim command history
 let g:fzf_history_dir = '~/.local/share/fzf-history'
+
+" YCM Configurations
+" Disable Clangd
+let g:ycm_use_clangd = 0
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "-----------------------Configuration Section ---------------------

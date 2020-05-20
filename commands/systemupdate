@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+echo "Running apt-get update... #################"
+sudo apt-get update
+echo "Apt-get update COMPLETE! ##################"
+
+echo "Running apt-get upgrade... ################"
+sudo apt-get upgrade
+echo "Apt-get upgrade COMPLETE! #################"
+
+echo "Running apt-get dist-upgrade... ###########"
+sudo apt-get dist-upgrade
+echo "Apt-get dist-upgrade COMPLETE! ############"
+
+echo "Running dpkg --configure -a... ############"
+sudo dpkg --configure -a
+echo "Dpkg --configure -a COMPLETE! #############"
+
+echo "System Update COMPLETE!"

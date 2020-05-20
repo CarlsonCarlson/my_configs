@@ -130,3 +130,6 @@ source ~/.promptline.sh
 
 # Go to home directory
 cd
+
+# Reload vim
+vim -c q .vimrc
